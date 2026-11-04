@@ -1,4 +1,6 @@
 console.log("Welcome to the application!");
-for(var i=1;i<=5;i++){
-    console.log("This is iteration number: " + i);
+console.log("This application is designed to help you manage your tasks efficiently.");
+for(let i = 1; i <= 5; i++){
+    console.log("Task " + i + ": Pending");
 }
+
